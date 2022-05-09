@@ -1,0 +1,103 @@
+body{
+    width:100%;
+    height: auto;
+    margin:0 auto;
+}
+
+.wrapper{
+    width:100%;
+    height: auto;
+    margin:0 auto;
+}
+
+.content{
+    width: 51%;
+    margin:0 auto;
+}
+
+textarea{
+    display: flex;
+    width: 32rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.keyboard {
+    margin: 1.5rem auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 65.5%;
+    background-color: rgb(102, 98, 98);
+}
+
+.keyboard-keys{
+    width: 98%;
+    margin: 0.5rem 0.5rem;
+}
+
+.keyboard-key {
+    margin: 0.05rem 0.035rem;
+    width: 30px;
+    height: 35px;
+    background-color: darkgrey;
+}
+
+span{
+    color: rgb(242, 235, 235);
+}
+
+button[data-key="Backspace"]{
+    width: 5.7rem;
+}
+
+button[data-key="Tab"]{
+    width: 3rem;
+}
+
+button[data-key="Delete"]{
+    width: 2.65rem;
+}
+
+button[data-key="CapsLock"]{
+    width: 4.5rem;
+}
+
+button[data-key="Enter"]{
+    width: 5.05rem;
+}
+
+button[data-key="ShiftLeft"]{
+    width: 7.05rem;
+}
+
+button[data-key="ShiftRight"]{
+    width: 2.5rem;
+    text-align: left;
+}
+
+button[data-key="ControlLeft"] {
+    width: 3.5rem;
+}
+
+button[data-key="WinLeft"] {
+    width: 2.5rem;
+}
+
+button[data-key="Space"] {
+    width: 10.35rem;
+}
+
+button[data-key="AltLeft"] {
+    width: 2.5rem;
+}
+
+button[data-key="AltRight"] {
+    width: 2.5rem;
+}
+
+button[data-key="ControlRight"] {
+    width: 3.5rem;
+}
